@@ -1,0 +1,28 @@
+.first-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-section .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content-first {
+    display: flex;
+}
+
+.right-first img {
+    width: 500px;
+    height: 250px;
+}
