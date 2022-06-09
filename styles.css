@@ -1,28 +1,59 @@
 .first-section {
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
+    padding: 0px 20px 20px 20px;
 }
 
 .first-section .header {
     display: flex;
     justify-content: space-between;
+    padding: 8px;
+}
+
+.header p{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.left-first h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.left-first p {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .header ul {
     display: flex;
-    gap: 8px;
+    gap: 24px;
     list-style: none;
+}
+
+.header li {
+    font-size: 18px;
 }
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 .content-first {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .right-first img {
+    display: flex;
     width: 500px;
     height: 250px;
+}
+
+body {
+    font-family: "roboto", Arial, sans-serif;
 }
