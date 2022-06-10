@@ -77,7 +77,7 @@ body {
     justify-content: space-around;
     align-items: center;
     gap: 30px;
-    margin: 0px 40px 100px 40px;
+    margin: 0px 100px 100px 100px;
 }
 
 .cards img {
@@ -104,7 +104,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 100px;
+    padding: 150px;
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
@@ -118,4 +118,44 @@ body {
     font-weight: 700;
     font-size: 24px;
 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #3882F6;
+    margin: 100px;
+    padding: 50px 100px;
+    border: 0px;
+    border-radius: 25px;
+}
+
+.container .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.ctatop, .ctabottom {
+    color: #F9FAF8;
+}
+
+.ctatop {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.ctabottom {
+    font-size: 18px;
+}
+
+.container .cta {
+    border: 3px solid #F9FAF8;
+    border-radius: 25px;
+    padding: 5px 10px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 700;
 }
