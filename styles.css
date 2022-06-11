@@ -86,7 +86,7 @@ body {
     font-family: "roboto", Arial, sans-serif;
 }
 
-.second-section p {
+.second-section .information {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,10 +98,10 @@ body {
 
 .cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 30px;
-    margin: 0px 100px 100px 100px;
+    margin: 25px 100px 100px 100px;
+    gap: 55px;
 }
 
 .cards img {
@@ -114,8 +114,11 @@ body {
 .ind-card {
     display: flex;
     flex-direction: column;
+    text-align: center;
     justify-content: center;
     align-items: center;
+    width: 180px;
+    gap: 10px;
 }
 
 #card-text {
@@ -128,10 +131,16 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 150px;
+    padding: 125px;
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.third-section .quote {
+    margin: 35px;
 }
 
 .third-section #name {
@@ -152,7 +161,7 @@ body {
     margin: 100px;
     padding: 50px 100px;
     border: 0px;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 .container .text {
