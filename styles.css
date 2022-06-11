@@ -28,6 +28,17 @@
     color: #E5E7EB;
 }
 
+.left-first button {
+    border: 0px solid #F9FAF8;
+    border-radius: 10px;
+    padding: 7px 20px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    width: 125px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
 .header ul {
     display: flex;
     gap: 24px;
@@ -150,12 +161,22 @@ body {
 }
 
 .container .cta {
-    border: 3px solid #F9FAF8;
-    border-radius: 25px;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
     padding: 5px 10px;
     background-color: #3882F6;
     color:#F9FAF8;
-    width: 200px;
+    width: 150px;
     font-size: 20px;
     font-weight: 700;
+}
+
+.footer {
+    background-color: #1F2937;
+    color:#F9FAF8;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;   
 }
